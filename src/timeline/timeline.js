@@ -33,7 +33,7 @@ export class Timeline extends Component {
     return (
       <TimeElement key={index}>
         <Text>{string}</Text>
-        <TimeDot>•</TimeDot>
+        <TimeDot>&bull;</TimeDot>
       </TimeElement>
     )
   }

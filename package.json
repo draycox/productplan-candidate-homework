@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "Daniel Cox ProductPlan homework submittion",
   "main": "y",
+  "homepage": "http://draycox.github.io/productplan-candidate-homework",
   "scripts": {
     "start": "parcel index.html",
+    "build": "parcel build index.html index.js --out-dir docs --public-url ./",
+    "deploy": "npm run build",
     "test": "jest"
   },
   "jest": {
@@ -45,8 +48,10 @@
     "babel-preset-latest": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
+    "cssnano": "^4.1.8",
     "enzyme": "^3.8.0",
     "enzyme-adapter-react-16": "^1.7.1",
+    "gh-pages": "^2.0.1",
     "jest": "^23.6.0",
     "react-test-renderer": "^16.7.0",
     "sass": "^1.16.0"

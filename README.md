@@ -4,25 +4,26 @@ Assignment Location -  https://github.com/mark-barbir/productplan-candidate-home
 
 ## Live
 
+http://danielcox.io/productplan-candidate-homework/
+
 ## Installation and Startup
 
 ```
 $ npm i && npm start
 ```
 
-## Unfinished Elements
+## Remaining Items
 * Tests (Absolutely Critical)
 * Item create is currently not possible.
 * User walkthrough tutorial
 
 ## Background
 
-I wanted to create a very simple react app from scratch. I am aware there are a tons of react templates to use but wanted to get a feel for using React. 
+I wanted to create a very simple react app from scratch. I am aware there are a tons of react templates to use but wanted to get a feel for using React. I am planning on using Jest and Enzyme to test the application but have run into a few testing roadblocks on my local machine. 
 
-I have had a number of testing issues on my local machine. I am planning on using Jest and Enzyme to test the application.
+The following technologies are being utilized...
 
-Parceljs is being used to serve the application.
-
+Parceljs, React, ReactDom, React-beautiful-dnd, styled-components
 
 ## Known Issues
 
