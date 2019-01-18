@@ -1,0 +1,54 @@
+{
+  "name": "productplan-candidate-homework",
+  "version": "1.0.0",
+  "description": "Daniel Cox ProductPlan homework submittion",
+  "main": "y",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "jest"
+  },
+  "jest": {
+    "roots": [
+      "<rootDir>/src"
+    ],
+    "setupTestFrameworkScriptFile": "<rootDir>/setupTests.js",
+    "moduleDirectories": [
+      "node_modules",
+      "src"
+    ]
+  },
+  "author": "Daniel Cox",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.2.3",
+    "app": "^0.1.0",
+    "assets": "^3.0.1",
+    "images": "^3.0.2",
+    "logo.svg": "^1.0.1",
+    "node-sass": "^4.11.0",
+    "react": "^16.7.0",
+    "react-beautiful-dnd": "^10.0.3",
+    "react-dom": "^16.7.0",
+    "regenerator-runtime": "^0.13.1",
+    "styled-components": "^4.1.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.7.1",
+    "jest": "^23.6.0",
+    "react-test-renderer": "^16.7.0",
+    "sass": "^1.16.0"
+  }
+}
